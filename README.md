@@ -10,7 +10,7 @@ x = x[-1]
 #catch the first unit of the number
 if x%2 == 0 :
             return "even"
-        elif x%2 == 1 :
+elif x%2 == 1 :
             return "odd"
 
 #check if its even or odd
